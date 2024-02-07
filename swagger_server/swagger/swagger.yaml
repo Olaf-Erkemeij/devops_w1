@@ -106,7 +106,7 @@ components:
         last_name:
           type: string
           example: Erkemeij
-        gradeRecords:
+        grade_records:
           type: array
           items:
             $ref: '#/components/schemas/GradeRecord'
